@@ -1,0 +1,16 @@
+.buttons-container{
+    display: flex;
+    margin-top: 10px;
+}   
+
+.Btn{
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #fff;
+
+}
