@@ -1,9 +1,12 @@
 
 .Navbar{
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-between;    
+    max-width: 1200px;   
     margin: auto;
     margin-top: 40px;    
 }
 
+.center-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

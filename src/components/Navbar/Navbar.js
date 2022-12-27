@@ -1,3 +1,4 @@
+import React from 'react';
 import './Navbar.css';
 import cartWidget  from '../CartWidget/CartWidget';
 import navButtons from '../Buttons/buttons';
@@ -9,11 +10,17 @@ const Navbar = () => {
 
     return (
         <nav className="Navbar">
-            <h1 style={{alignSelf: `flex-start`,color:`#61dafb`,fontSize:`30px`}}>CompuNext</h1>
+
+            <div className='center-container'>
+
+            <h2 style={{color:`#61dafb`,fontSize:`30px`}}>Compufy</h2>
 
             {navButtons()}
 
             {cartWidget()}
+
+            </div>
+            
             
 
         </nav>
